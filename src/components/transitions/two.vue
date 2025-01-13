@@ -10,6 +10,7 @@
         name="custom"
         enter-active-class="dog"
         leave-active-class="cat"
+        
         @before-enter="beforeEnter"
         @enter="enter"
         @after-enter="afterEnter"
